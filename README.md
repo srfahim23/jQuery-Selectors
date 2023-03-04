@@ -127,4 +127,27 @@ When a user clicks on a button, the elements with class="test" will be hidden:
     </body>
     </html>
 
+# More Examples of jQuery Selectors
+
+    Syntax          Description
+
+    $("*")          Selectors all elements
+
+    $(this)         Selects the current HTML element
+
+    $("p.intro")    Selects all <p> elements with 
+                    class="intro"
+
+    $("p:first")    Selects the first <p>   element
+
+    $("ul li:first") Selects the first <li> element of the first
+                        <ul>
+
+    $("ul li:first-child")   Selects the first <li> elment of every <ul>
+
+    $("[href]")             Selects all elements with an href attribute
+
+    $("a[targget='_blank']")    Selects all <a> elements with a target attribute value equal to "_blank"
+
     
+
