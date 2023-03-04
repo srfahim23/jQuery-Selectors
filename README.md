@@ -88,4 +88,43 @@ Example
     </body>
     </html>
 
+# The .class Selelctor
+The jQuery .class selector finds elements with a specific class.
+
+To find elements with a specific class, write period charecters, followed by the name of the class:
+
+    $(".test")
+
+Example
+
+When a user clicks on a button, the elements with class="test" will be hidden:
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <script>
+    src="https://ajax.googleapis.come
+    /ajax/libs/jquery/3.6.4
+    /jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $(".test").hide();
+        });
+    });
+    </script>
+    </head>
+    <body>
+
+    <h2 class="test">This is a heading</h2>
+
+    <p class="test">This is a paragraph.</p>
+
+    <p>This is another paragraph</p>
+
+    <button>Click me</button>
+
+    </body>
+    </html>
+
     
