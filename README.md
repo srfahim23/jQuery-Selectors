@@ -149,5 +149,17 @@ When a user clicks on a button, the elements with class="test" will be hidden:
 
     $("a[targget='_blank']")    Selects all <a> elements with a target attribute value equal to "_blank"
 
-    
+    $("a[target!='_blank']")   --> selects all <a> elements with a target attribute value NOT equal to "_blank"
+
+    $(":button")                --> Selects all <button> elements and <input> elements of type="button"
+
+    $("tr:even")                --> Selects all even <tr> elements
+
+    $("tr:odd")                 --> Selects all odd <tr> elements
+
+Use our jQuery Selectors Tester to demostrate the different selectors.
+
+For a complete reference of all the jQuery selectors, please to our jQuery Selectors Reference.
+
+
 
